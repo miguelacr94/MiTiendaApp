@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.customModal {
+  border-radius: 10px !important;
+}
+
+.react-responsive-modal-modal {
+  max-width: none !important;
+}
+
+.react-responsive-modal-container {
+  /* height: auto !important; */
+}
+
+#site-wrapper {
+  min-height: 100vh;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.rec .rec-dot {
+  background-color: #c0c0c0;
+  box-shadow: none;
+  outline: none;
+}
+
+.rec .rec-dot:hover,
+.rec .rec-dot:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.rec .rec-dot_active {
+  background-color: #8F3471;
+  outline: none;
+}
+
+.rec .rec-dot_active:hover,
+.rec .rec-dot_active:focus {
+  outline: none;
+}
+
+.react-responsive-modal-modal {
+  padding: 0px!important;
+}
+
+.react-responsive-modal-container {
+  height: auto!important;
+}
+
+.react-responsive-modal-closeButton {
+  color: #fff;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 768px) {
+  .react-responsive-modal-modal {
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+.react-toast-notifications__container {
+  z-index: 1001 !important;
+}
+
+#login-bg {
+  background: rgb(1, 0, 105);
+  background: linear-gradient(180deg, rgba(1, 0, 105, 1) 70%, rgba(0, 0, 40, 1) 100%);
+}

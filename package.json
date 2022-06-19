@@ -1,0 +1,32 @@
+{
+  "name": "playcbdclient",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^2.9.1",
+    "axios": "^0.27.2",
+    "next": "^12.1.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-elastic-carousel": "^0.11.5",
+    "react-hook-form": "^7.32.2",
+    "react-hook-form-resolvers": "^0.0.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-modal": "^6.2.0",
+    "sweetalert2": "^11.4.17",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "eslint": "8.16.0",
+    "eslint-config-next": "12.1.6",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.0.24"
+  }
+}
